@@ -1,2 +1,2 @@
-# <b> Site Gerador Hash </b>
+# <b> Try Generating a Hash - TGAH </b>
 

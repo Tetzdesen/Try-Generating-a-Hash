@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Saira Stencil One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&family=Rubik+Spray+Paint&family=Saira+Stencil+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(13, 178, 255);
+    
+}
+
+header{
+    background-color: rgb(244, 244, 244);
+}
+
+select{
+    color: rgb(37, 19, 88);
+    font-size: 21px;
+    width: 15%;
+    align-items: center;
+    padding: 4px 3px 3px;
+    background-color: #ffffffc2;
+    border: solid;
+
+    border-color: rgb(0, 0, 0);
+    border-radius: 4px;
+}
+input{
+    color: rgb(228, 116, 116);
+    font-size: 24px;
+    width: 100%;
+    padding: 6px 3px 3px;
+    background-color: #ffffffc2;
+    border: solid;
+    margin-bottom: 4%;
+    border-color: rgb(0, 0, 0);
+    border-radius: 4px;
+}
+p{
+    font-size: 2rem;
+    margin-top: 2%;
+    font-family: 'Anton', sans-serif;
+}
+
+h1{
+    font-size: 5em;
+    color: rgb(3, 21, 79);
+    align-items: center;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.main {
+    width: 70%;
+    margin-bottom: 45%;
+    background: rgb(229, 229, 229);
+    border-radius: 10px;
+    max-width: 55%;
+    flex-direction: column;
+    padding: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2rem;
+    transform: translate(-50%, -50%);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    justify-content: space-between;
+    padding: 45px 115px 33px 95px;
+    font-family: 'Anton', sans-serif;
+  }
+
+button{
+    font-size:15px;
+    font-family: 'Anton', sans-serif;
+    width:106px;
+    height:39px;
+    border-width:4px;
+    color:#fff;
+    border-color:#4e6096;
+    border-top-left-radius:18px;
+    border-top-right-radius:18px;
+    border-bottom-left-radius:18px;
+    border-bottom-right-radius:18px;
+
+
+    background:linear-gradient(rgb(120, 146, 194), #476e9e);
+}
+
+button:hover{
+    background: linear-gradient(#476e9e, rgb(120, 146, 194));
+}
+.div-text2{
+    font-size: 2rem;
+    background-color: white;
+    color: rgb(114, 183, 183);
+    font-family: 'Anton', sans-serif;
+    border: solid;
+    align-items: center;
+    text-align: center;
+    border-color: black;
+}
+
+.select{
+    position: relative;
+    margin-top: 5%;
+}
+
+#p1{
+    font-size: 2.5rem;
+}
+
+#message{
+    width: 55%;
+    height: 45%;
+}
+
+
+
+
+
